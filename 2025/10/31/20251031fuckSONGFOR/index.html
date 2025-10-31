@@ -29,7 +29,7 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://avatars.githubusercontent.com/u/70953327?s=400&u=9e9d6425d5dca2b503fa620ad32633453148aac0&v=4">
 <meta property="article:published_time" content="2025-10-30T16:00:00.000Z">
-<meta property="article:modified_time" content="2025-10-31T10:04:12.177Z">
+<meta property="article:modified_time" content="2025-10-31T10:44:46.718Z">
 <meta property="article:author" content="aw59">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://avatars.githubusercontent.com/u/70953327?s=400&u=9e9d6425d5dca2b503fa620ad32633453148aac0&v=4">
@@ -48,7 +48,7 @@
 
   
 
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"aw59","sameAs":[],"image":"https://avatars.githubusercontent.com/u/70953327?s=400&u=9e9d6425d5dca2b503fa620ad32633453148aac0&v=4"},"dateCreated":"2025-10-31T00:00:00+08:00","dateModified":"2025-10-31T18:04:12+08:00","datePublished":"2025-10-31T00:00:00+08:00","description":"","headline":"记一次和深信服（easyconnect/songfor）的斗智斗勇","mainEntityOfPage":{"@type":"WebPage","@id":"https://aw59.github.io/2025/10/31/20251031fuckSONGFOR/"},"publisher":{"@type":"Organization","name":"aw59","sameAs":[],"image":"https://avatars.githubusercontent.com/u/70953327?s=400&u=9e9d6425d5dca2b503fa620ad32633453148aac0&v=4","logo":{"@type":"ImageObject","url":"https://avatars.githubusercontent.com/u/70953327?s=400&u=9e9d6425d5dca2b503fa620ad32633453148aac0&v=4"}},"url":"https://aw59.github.io/2025/10/31/20251031fuckSONGFOR/","image":[]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"aw59","sameAs":[],"image":"https://avatars.githubusercontent.com/u/70953327?s=400&u=9e9d6425d5dca2b503fa620ad32633453148aac0&v=4"},"dateCreated":"2025-10-31T00:00:00+08:00","dateModified":"2025-10-31T18:44:46+08:00","datePublished":"2025-10-31T00:00:00+08:00","description":"","headline":"记一次和深信服（easyconnect/songfor）的斗智斗勇","mainEntityOfPage":{"@type":"WebPage","@id":"https://aw59.github.io/2025/10/31/20251031fuckSONGFOR/"},"publisher":{"@type":"Organization","name":"aw59","sameAs":[],"image":"https://avatars.githubusercontent.com/u/70953327?s=400&u=9e9d6425d5dca2b503fa620ad32633453148aac0&v=4","logo":{"@type":"ImageObject","url":"https://avatars.githubusercontent.com/u/70953327?s=400&u=9e9d6425d5dca2b503fa620ad32633453148aac0&v=4"}},"url":"https://aw59.github.io/2025/10/31/20251031fuckSONGFOR/","image":[]}</script>
   
 </head>
 <body>
@@ -80,7 +80,7 @@
   <div class="content">
     <div class="top bread-nav footnote"><div class="left"><div class="flex-row" id="breadcrumb"><a class="cap breadcrumb" href="/">主页</a>
 <span class="sep"></span><a class="cap breadcrumb" href="/">文章</a></div>
-<div class="flex-row" id="post-meta"><span class="text created">发布于：<time datetime="2025-10-30T16:00:00.000Z">2025-10-31</time></span><span class="sep updated"></span><span class="text updated">更新于：<time datetime="2025-10-31T10:04:12.177Z">2025-10-31</time></span></div></div></div>
+<div class="flex-row" id="post-meta"><span class="text created">发布于：<time datetime="2025-10-30T16:00:00.000Z">2025-10-31</time></span><span class="sep updated"></span><span class="text updated">更新于：<time datetime="2025-10-31T10:44:46.718Z">2025-10-31</time></span></div></div></div>
     
     <div class="bottom only-title">
       
@@ -105,6 +105,12 @@
 <p>此时我才知道, 进入安全模式之后能正常运行的根本原因是禁用songfor的服务启动了</p>
 <h2 id="三、解决"><a href="#三、解决" class="headerlink" title="三、解决"></a>三、解决</h2><p>知道了问题所在，立马上网找怎么卸载easyconnect，真是过程繁杂，既要关闭服务：<br><img src="/images/20251031fuckSONGFOR/ProtSer.png" alt="后台保护服务"></p>
 <p>还要清理注册表：<br><img src="/images/20251031fuckSONGFOR/ClReg.png" alt="清理注册表"></p>
+<p>甚至还有假删:</p>
+<video width="320" height="240" controls>
+    <source src="/videos/20251031fuckSONGFOR/fakedelete.mp4" type="video/mp4">
+</video>
+
+<p>点击卸载之后弹个窗口,实际上文件一点没变</p>
 <p>此外，想要删除安装的文件，用终止运行并且配置权限的方法比较麻烦，这里我推荐我的方法：安装一个pe系统，这里推荐wepe，直接从pe系统删除songfor文件夹。</p>
 <p>在清除songfor之后建议重装vc，nv和.net，不知道具体什么原理，songfor在运行的时候，会阻碍vc的正常安装，在我重装达芬奇时vc安装一直失败就是因为songfor，nv不能正常运行也和songfor有关。<br>此外可能出现网络问题：<br><img src="/images/20251031fuckSONGFOR/NetErr.png" alt="网络相关服务出现问题"><br>可以跟着<a target="_blank" rel="noopener" href="https://www.hostssss.com/thread-1017-1-1.html">如何卸载songfor&#x2F;easyconnect</a>里的4.1一步重置网络</p>
 <h2 id="四、建议"><a href="#四、建议" class="headerlink" title="四、建议"></a>四、建议</h2><p>对于不想太折腾的用户，如果要访问校园网不得不使用easyconnect，尽可能安装在虚拟机，或者硬盘分个小分区装个第二系统，专门应对各种流氓软件，实在肆虐的难以清理了就删除分区，不影响生产环境。<br>对于想折腾折腾的用户，可以搜搜在docker里运行easyconnect</p>
